@@ -61,7 +61,7 @@ class OtherOptionsCard extends React.Component {
                     <Grid item md={12} xs={12}>
                         <Paper className={classes.paper}>
                             {switches.map(_switch => (
-                                <Grid container alignItems="flex-end" spacing={theme.spacing.unit}>
+                                <Grid container alignItems="flex-end" spacing={theme.spacing(1)}>
                                     <Grid item md={6} xs={6}>
                                         <FormGroup>
                                             <FormControlLabel control={

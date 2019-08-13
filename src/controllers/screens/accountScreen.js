@@ -53,7 +53,7 @@ class AccountScreen extends React.Component {
                 { user =>
                     <Grid style={styles.root}>
                         <Grid container
-                              spacing={AppTheme.spacing.unit * 2}>
+                              spacing={AppTheme.spacing(2)}>
                             <Grid item
                                   md={4} xs={12} sm={6}>
                                 <AccountCard user={user}/>

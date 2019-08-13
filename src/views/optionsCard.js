@@ -33,7 +33,7 @@ function OptionsCard(props) {
             <Grid container>
                 <Grid item md={12} xs={12}>
                     <Paper className={classes.paper}>
-                        <Grid container spacing={theme.spacing.unit}>
+                        <Grid container spacing={theme.spacing(1)}>
                             <Grid item xs={6} sm={4} md={2}>
                                 <SelectedMenu menuOptions={["Option 1", "Option 2", "Option 3"]} label="Dropdown" onSelect={(event, subLabel) => console.log(subLabel)}/>
                             </Grid>
